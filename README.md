@@ -1,6 +1,7 @@
 # Task 2: Analyze a Phishing Email Sample
 
 ## Objective
+
 The objective of this task is to identify phishing characteristics in a suspicious email sample by analyzing sender details, email content, URLs, and email headers.
 
 ---
@@ -16,23 +17,26 @@ The objective of this task is to identify phishing characteristics in a suspicio
 
 ## Sample Phishing Email
 
-**From:** support@paypa1-security.com
+**From:** security-alert@sbi-verification.in
 
-**Subject:** Urgent: Your Account Has Been Suspended
+**Subject:** URGENT: Your SBI Account Has Been Temporarily Blocked
 
-```
+```text
 Dear Customer,
 
-We detected unusual activity in your account. Your account has been temporarily suspended for security reasons.
+We have detected unusual activity in your State Bank of India account. As a security precaution, your online banking access has been temporarily suspended.
 
-To restore access immediately, please click the link below and verify your account information:
+To reactivate your account immediately, please verify your account details by clicking the secure link below:
 
-http://paypal-secure-verification-login.com/verify
+http://sbi-secure-account-verification.in/login
 
-Failure to verify your account within 24 hours will result in permanent account closure.
+Failure to verify your account within the next 12 hours will result in permanent suspension of your Internet Banking services.
+
+Please do not reply to this email as this is an automated notification.
 
 Thank you,
-PayPal Security Team
+SBI Security Department
+State Bank of India
 ```
 
 ---
@@ -41,11 +45,11 @@ PayPal Security Team
 
 | Indicator | Description |
 |-----------|-------------|
-| Suspicious Sender | The sender domain "paypa1-security.com" impersonates PayPal using the number "1" instead of the letter "l". |
+| Suspicious Sender | The sender domain "sbi-verification.in" impersonates the State Bank of India. |
 | Urgency | The email creates panic by claiming account suspension. |
-| Threatening Language | Warns of permanent account closure within 24 hours. |
-| Suspicious URL | The link does not belong to the official PayPal domain. |
-| Spoofing | Attempts to impersonate PayPal. |
+| Threatening Language | Warns of permanent account suspension within 12 hours. |
+| Suspicious URL | The link does not belong to the official SBI website. |
+| Spoofing | Attempts to impersonate State Bank of India. |
 | Generic Greeting | Uses "Dear Customer" instead of the recipient's actual name. |
 | Social Engineering | Manipulates the victim using fear and urgency. |
 | Authentication Failure | SPF/DKIM/DMARC verification may fail or be absent. |
@@ -82,5 +86,3 @@ Email header analysis revealed possible spoofing attempts. The sender domain did
 ## Conclusion
 
 The analyzed email contains multiple phishing indicators, including spoofed sender information, malicious URLs, social engineering tactics, and urgency-based manipulation. This email should be classified as a phishing attempt and should not be trusted.
-
----
