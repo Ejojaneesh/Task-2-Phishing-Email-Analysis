@@ -1,0 +1,19 @@
+From: support@sbi-onlineverification.in
+Subject: URGENT: Your SBI Account Has Been Temporarily Blocked
+
+Dear Customer,
+
+We have detected unusual activity in your State Bank of India account. As a security precaution, your online banking access has been temporarily suspended.
+
+To reactivate your account immediately, please verify your account details by clicking the secure link below:
+
+http://sbi-secure-account-verification.in/login
+
+Failure to verify your account within the next 12 hours will result in permanent suspension of your Internet Banking services.
+
+Please do not reply to this email as this is an automated notification.
+
+Thank you,
+
+SBI Security Department
+State Bank of India
