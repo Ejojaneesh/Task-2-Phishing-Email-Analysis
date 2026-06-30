@@ -17,7 +17,7 @@ The objective of this task is to identify phishing characteristics in a suspicio
 
 ## Sample Phishing Email
 
-**From:** security-alert@sbi-verification.in
+**From:** support@sbi-onlineverification.in
 
 **Subject:** URGENT: Your SBI Account Has Been Temporarily Blocked
 
@@ -45,7 +45,7 @@ State Bank of India
 
 | Indicator | Description |
 |-----------|-------------|
-| Suspicious Sender | The sender domain "sbi-verification.in" impersonates the State Bank of India. |
+| Suspicious Sender | The sender domain "sbi-onlineverification.in" impersonates the State Bank of India. |
 | Urgency | The email creates panic by claiming account suspension. |
 | Threatening Language | Warns of permanent account suspension within 12 hours. |
 | Suspicious URL | The link does not belong to the official SBI website. |
